@@ -1,0 +1,148 @@
+.container{
+    height:400px;
+    width:50%;
+    background-color:  rgb(131, 202, 255);
+    margin:auto;
+    position: relative;
+    border:6px solid black;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.header{
+display:flex;
+justify-content: center;
+align-items: center;
+font-size:30px;
+margin-top:-43px;
+
+}
+.footer{
+    display:flex;
+justify-content: center;
+align-items: center;
+font-size:30px;
+height:70px;
+align-self:auto;
+margin-top:228px ;
+
+
+}
+
+.menu{
+    
+    width:20%;
+    height:260px;
+    background-color: rgb(169, 82, 169);
+font-size:30px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.add{
+    background-color: rgb(169, 82, 169);
+    width:20%;
+    height:260px;
+
+display: flex;
+justify-content:left;
+
+
+
+}
+
+.add pre{
+   font-size:70px;
+   font-weight: 700;
+   margin-top:-4px;
+}
+.content{
+height:260px;
+width:60%;
+background-color: rgb(224, 179, 94);
+font-size:25px;font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+border-width: 0 6px 0 6px;
+  border-style: solid;
+overflow: hidden;
+
+
+}
+.span1{
+    font-size:35px;
+    font-weight: 700;
+    display:flex;
+    margin-top:-40px;
+    justify-content: center;
+    
+    
+}
+.content p{
+    font-size: 20px;
+    margin-left:10px;
+    overflow: hidden;
+}
+.cont_cen{
+    height:260px;
+width:100%;
+  border-width: 6px 0 6px 0;
+  border-style: solid;
+position:absolute;
+top:65px;
+
+display:flex;
+flex-direction: row;
+
+}
+.span2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.ordered_list{
+    display:flex;
+    flex-direction: column;
+   margin-left:-120%;
+   font-size:30px;
+   justify-content: center;
+   align-items: center;
+   align-content:space-around;
+  overflow:auto;
+  text-overflow: clip;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .parent{
+    width:300px;
+    height:300px;
+    background-color:yellow;
+    margin-left:30%;
+position:relative;
+} 
+
+.child{
+    width:60px;
+    height:45px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+} */
+
+
+
